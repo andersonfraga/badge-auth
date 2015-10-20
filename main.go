@@ -1,14 +1,14 @@
-package main 
+package main
 
 import (
-	"os"
+	"github.com/andersonfraga/badge-auth/badge"
 	"github.com/codegangsta/cli"
-	"github.com/btfidelis/badge-auth/badge"
+	"os"
 )
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "SKeyL"
+	app.Name = "Badge Auth"
 	app.Usage = ""
 	app.Action = func(c *cli.Context) {
 		cli.ShowAppHelp(c)
