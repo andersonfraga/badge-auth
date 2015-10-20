@@ -1,0 +1,30 @@
+Ssh *
+    IdentityFile /root/.ssh/id_rsa
+
+Ssh remote-guy
+    Hostname my.remote.com
+    User root
+
+Ssh other-remote
+    Hostname foo.bar.net
+    User doodle
+
+Mysql *
+    Port 3306
+    Client mycli
+
+Mysql master-google
+    Hostname 123.212.11.1
+    User root-server
+    Database searchable
+
+Mysql slave-1231-test
+    Client tty
+    Hostname slave-123-212-212.test.com
+    User root
+    Database searchable-homologation
+
+Scp filesys-root
+    Hostname filesys.test.com
+    User root
+    Path /home/
